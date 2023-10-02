@@ -1,0 +1,24 @@
+:root { 
+    --cor-de-fundo: 
+}
+body{ 
+    background-color: var(--cor-de-fundo)
+
+}
+h1{ 
+    background-color: rgb(247, 110, 224);
+    border-radius: 15cm;
+    background-position: 5cm;
+}
+h4{ 
+    background-color: antiquewhite;
+    color: azure;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+header{background-color: var(--cor-do-titulo); }
+h1{ 
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;}
