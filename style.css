@@ -1,24 +1,85 @@
-:root { 
-    --cor-de-fundo: 
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
 }
-body{ 
-    background-color: var(--cor-de-fundo)
 
-}
-h1{ 
-    background-color: rgb(247, 110, 224);
-    border-radius: 15cm;
-    background-position: 5cm;
-}
-h4{ 
-    background-color: antiquewhite;
-    color: azure;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 20px;
-}
-header{background-color: var(--cor-do-titulo); }
-h1{ 
+/* Estilizando o cabeçalho */
+header {
+    background-color: #ce5cac;
+    color: rgb(178, 84, 221);
     text-align: center;
-    color: aliceblue;
-    text-decoration: underline;}
+    padding: 20px;
+}
+
+/* Estilizando o título */
+h1 {
+    font-size: 36px;
+}
+
+/* Estilizando o conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilizando a seção de informações do produto */
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilizando a descrição do produto */
+.product-description {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.product-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-description p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-description ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.product-description li {
+    font-size: 18px;
+}
+
+/* Estilizando o botão de compra */
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilizando as imagens do produto */
+.product-images {
+    flex-grow: 1;
+}
+
+.product-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
